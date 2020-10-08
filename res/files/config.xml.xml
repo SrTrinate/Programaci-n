@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enemies>
+
+	<enemy name="trol">
+		<vitality>1000</vitality>
+		<defense>100</defense>
+		<frequency>20</frequency>
+		<exp>2000</exp>
+		<weapons>
+			<weapon name="hammer">
+				<tipo>melee</tipo>
+				<range>20</range>
+			</weapon>
+		</weapons>
+		
+	</enemy>
+	
+	<enemy name="goblin">
+		<vitality>100</vitality>
+		<defense>10</defense>
+		<frequency>50</frequency>
+		<exp>500</exp>
+		<weapons>
+			<weapon name="bow">
+				<tipo>ranged</tipo>
+				<range>100</range>
+			</weapon>
+		</weapons>
+	</enemy>
+	
+	<enemy name="vampire">
+		<vitality>500</vitality>
+		<defense>50</defense>
+		<frequency>30</frequency>
+		<exp>1000</exp>
+		<weapons>
+			<weapon name="dentures">
+				<tipo>melee</tipo>
+				<range>5</range>
+			</weapon>
+		</weapons>
+	</enemy>
+	
+	<enemy name="phantom">
+		<vitality>700</vitality>
+		<defense>100</defense>
+		<frequency>10</frequency>
+		<exp>1500</exp>
+		<weapons>
+			<weapon name="plasma">
+				<tipo>melee</tipo>
+				<range>0</range>
+			</weapon>
+		</weapons>
+	</enemy>
+
+</enemies>
