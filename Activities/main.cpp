@@ -4,7 +4,7 @@
 #include "../dep/inc/xml/rapidxml_print.hpp"
 #include <iostream>
 #include <sstream>
-#include <fstream>
+
 
 
 int main()
@@ -14,7 +14,7 @@ int main()
 	std::ifstream file("../res/files/config.xml");
 	std::stringstream buffer;
 	buffer << file.rdbuf();
-	file.close();
+	file.close(); 
 	std::string content(buffer.str());
 	doc.parse<0>(&content[0]);
 
