@@ -1,7 +1,7 @@
-#include "../dep/inc/xml/rapidxml.hpp"
-#include "../dep/inc/xml/rapidxml_utils.hpp"
-#include "../dep/inc/xml/rapidxml_iterators.hpp"
-#include "../dep/inc/xml/rapidxml_print.hpp"
+#include "../../dep/inc/xml/rapidxml.hpp"
+#include "../../dep/inc/xml/rapidxml_iterators.hpp"
+#include "../../dep/inc/xml/rapidxml_print.hpp"
+#include "../../dep/inc/xml/rapidxml_utils.hpp"
 #include <iostream>
 #include <sstream>
 
@@ -11,7 +11,7 @@ int main()
 {
 	//Creación de un documento XML desde el fichero XML para poder leer su contenido
 	rapidxml::xml_document<> doc;
-	std::ifstream file("../res/files/config.xml");
+	std::ifstream file("../../res/files/config.xml");
 	std::stringstream buffer;
 	buffer << file.rdbuf();
 	file.close(); 
