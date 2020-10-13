@@ -24,6 +24,7 @@
     <ProjectGuid>{fec1d8bc-9702-456b-8961-aa811d16009c}</ProjectGuid>
     <RootNamespace>Activities</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>AA1_XML</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
